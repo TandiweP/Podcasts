@@ -1,0 +1,12 @@
+body {
+  background-color: ghostwhite;
+}
+
+.navbar {
+  background-color: rgb(96, 95, 95);
+  border: solid yellow;
+  width: 100vw;
+  justify-content: center;
+  height: 4em;
+  margin: 0;
+}

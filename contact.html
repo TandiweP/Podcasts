@@ -21,30 +21,46 @@
             <form action="#nowhere">
 
                 <div class="form-row">
-                    <div class="col">
-                        <div class="form-group">
+                   
+                        <div class="form-group col-md-6">
                             <label for="name">Name</label>
                             <input type="text" class="form-control" name="name" id="name" placeholder="Firstname Lastname">
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="form-group">
+                    
+                    
+                        <div class="form-group col-md-6">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
                         </div>
+                    
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="age">Are You 18 Years Old or Older?</label>
+                        <select class="form-control" name="age" id="age">
+                            <option value="Yes">Yes</option>
+                            <option value="NO">No</option>
+                        </select>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="select">Does Your Message Contain A Question?</label>
-                    <select class="form-control" name="select" id="select">
-                        <option value="Yes">Yes</option>
-                        <option value="NO">No</option>
-                    </select>
-                </div>
 
+                    <div class="form-group col-md-6">
+                        <label for="residene">Please Select Your Place of Residence</label>
+                        <select class="form-control" name="residence" id="residence">
+                            <option value="Earth">Earth</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                </div>
                 <div class="form-group">
                     <label for="textarea">Message</label>
                     <textarea class="form-control" name="textarea" id="textarea" rows="3"></textarea>
+
+                <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="subscribe">
+                        <label class="custom-control-label" for="subscribe">Sign Me Up</label>
+                </div>
                 </div>
                 
 

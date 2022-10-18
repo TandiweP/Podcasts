@@ -11,3 +11,7 @@ body {
   color: gray;
   font-weight: 100;
 }
+
+#mainNavBar .nav-link:hover {
+  color: rgb(191, 71, 71);
+}

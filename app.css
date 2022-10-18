@@ -1,3 +1,13 @@
 body {
   background-color: ghostwhite;
 }
+
+#mainNavBar .navbar-brand {
+  color: rgb(191, 71, 71);
+  font-weight: 500;
+}
+
+#mainNavBar .nav-link {
+  color: gray;
+  font-weight: 100;
+}

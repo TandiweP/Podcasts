@@ -4,8 +4,15 @@ console.log("This is the JS file");
 
 function clicked() {
     console.log("clicked")
+};
+
+let random = Math.random();
+if (random < 0.5) {
+    console.log("The number is less than 0.5");
+    console.log(random);
 }
 
-    if (10 > 2) {
-        console.log("Math is real")
-    }
+else if (random >= 0.5) {
+    console.log("The number is greater than 0.5");
+    console.log(random);
+};

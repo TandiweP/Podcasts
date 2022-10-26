@@ -3,7 +3,8 @@ console.log("Hello");
 console.log("This is the JS file");
 
 function clicked() {
-    console.log("clicked")
+    console.log("clicked");
+    document.getElementById('horrorButton').style.backgroundColor = "white";
 };
 
 let random = Math.random();

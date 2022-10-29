@@ -17,6 +17,4 @@ else if (random >= 0.5) {
     console.log("The number is greater than 0.5");
     console.log(random);
 }
-else if (random === NaN) {
-    console.log("Input a number, fool");
-};
+
